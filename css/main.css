@@ -1,0 +1,87 @@
+@media(min-width: 768px) {
+
+    .row {
+        height: 1000px;
+    }
+
+    .page-section {
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .page-section .section-background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+    }
+
+    .image-element {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .image-background {
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: cover;
+        background-attachment: scroll;
+        background-origin: content-box;
+        position: absolute;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+
+    #section1 {
+        height: 1073.50px;
+    }
+
+
+    #section1 .section-background {
+        background-image: url("./images/section1.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: scroll;
+        background-origin: content-box;
+    }
+
+    #image1 .image .image-background {
+        top: 44px;
+        left: 75px;
+        width: 100%;
+        height: 355px;
+        background-image: url("./images/thien-xuan-nhu-y.png");
+    }
+
+    #image2 .image .image-background {
+        top: 44px;
+        left: 75px;
+        width: 91.4437px;
+        height: 34.5367px;
+        background-image: url("./images/silk.png");
+    }
+}
+
+@media(max-width: 767px) {
+
+    #section1 {
+        height: 700.50px;
+    }
+
+
+    #section1 .section-background {
+        background-image: url("./images/section1.jpg");
+        background-position: center top;
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        background-origin: content-box;
+    }
+}
